@@ -110,3 +110,9 @@ username=$.username;id=$.userId
 - 支持delete，put等方法
 - 支持验证数据库
 - 待加+++++
+
+##报告乱码
+package com.sen.api.listeners;->添加配置
+htmlReporter.config().setEncoding("utf-8");
+
+在eclipse根目录下打开eclipse.ini文件，增加-Dfile.encoding=UTF-8 这一句话 
