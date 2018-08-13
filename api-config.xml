@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <rootUrl>http://apis.baidu.com</rootUrl>
+    <rootUrl>http://v.juhe.cn</rootUrl>
     <headers>
         <!-- 配置为自己的参数 -->
-        <header name="apikey" value="123456"></header>
+        <header name="keyid" value="123456"></header>
     </headers>
     <params>
-    	<param name="test" value="value"></param>
+    	<param name="key" value="3d78dbaceb49f5be61ccb171aadf38b0"></param>
+    	<param name="date" value="2018-08-11"></param>
     </params>
     <project_name>接口自动化测试报告demo</project_name>
 </root>
