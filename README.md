@@ -115,4 +115,4 @@ username=$.username;id=$.userId
 package com.sen.api.listeners;->添加配置
 htmlReporter.config().setEncoding("utf-8");
 
-在eclipse根目录下打开eclipse.ini文件，增加-Dfile.encoding=UTF-8 这一句话 
+在eclipse根目录下打开eclipse.ini文件，增加-Dfile.encoding=UTF-8 这一句话  
