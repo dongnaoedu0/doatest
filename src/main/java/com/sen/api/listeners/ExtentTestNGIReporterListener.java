@@ -112,6 +112,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
         htmlReporter.config().setReportName(ReportUtil.getReportName());
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+        htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setTheme(Theme.STANDARD);
         //设置点击效果：.node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}
         //设置系统信息样式：.card-panel.environment  th:first-child{ width:30%;}
