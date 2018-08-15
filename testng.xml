@@ -1,7 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
 <suite name="接口自动化测试" verbose="1" preserve-order="true" parallel="false">
-	<test name="自动化测试用例">
+	<test name="自动化测试用例0">
 		<parameter name="excelPath" value="case/api-data.xls"></parameter>
+		<parameter name="sheetName" value="Sheet1"></parameter>
+		<classes>
+			<class name="test.com.sen.api.ApiTest">
+				<methods>							
+					<include name="apiTest"></include>
+				</methods>
+			</class>	
+		</classes>
+	</test>
+	<test name="自动化测试用例1">
+		<parameter name="excelPath" value="case/api-data1.xls"></parameter>
 		<parameter name="sheetName" value="Sheet1"></parameter>
 		<classes>
 			<class name="test.com.sen.api.ApiTest">
